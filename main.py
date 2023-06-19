@@ -1,10 +1,8 @@
-import numpy as np
-import tensorflow as tf
-import os
-from datetime import datetime
 import streamlit as st
+import pandas as pd
+from sklearn.preprocessing import  LabelEncoder
 import xgboost as xgb
-import sklearn
+import numpy as np
 
 st.header("Oculous")
 name = st.text_input("Enter your Name: ", key="name")
